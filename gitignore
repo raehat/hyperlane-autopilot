@@ -1,0 +1,35 @@
+# Ignore node_modules in all project folders
+**/node_modules/
+
+# Dependency directories
+node_modules/
+
+# Build directories
+build/
+dist/
+out/
+.DS_Store
+.pnp.js
+
+# Environment files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+
+# User specific files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
